@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px !important;
+    min-height: 100vh;
+    /* padding: 0; */
+    /* margin: 0; */
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+
+/* navbar */
+
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+
+
+/* prdouct-image */
+
+.product-image img {
+    margin: 2% 2% 2% 2%;
+    border: 1px solid black;
+    display: block;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.product-info h1 {
+    margin: 0px auto;
+}
+
+.product-info {
+    display: inline-block;
+    padding-top: 3%;
+    ;
+}
+
+
+/* cart */
+
+.cart-button {
+    background-color: chocolate;
+}
+
+.cart {
+    margin-top: 1%;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    font-size: x-large;
+    border: 2px solid brown;
+}
+
+.color-box {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    ;
+}
+
+
+/* Form  */
+
+.decor {
+    margin-left: 20%;
+    position: absolute;
+    width: 30%;
+    display: inline-block;
+    margin-top: 15px;
+    background-color: deepskyblue;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+body {
+    /* display: inline-block; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 20px;
+    /* background: #5a7233; */
+}
+
+h1 {
+    margin-top: 0;
+    /* font-weight: 500; */
+}
+
+form {
+    position: relative;
+    width: 80%;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.form-left-decoration,
+.form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background: #5a7233;
+}
+
+.form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+}
+
+.form-right-decoration {
+    top: 60px;
+    right: -30px;
+}
+
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.form-left-decoration:before {
+    top: -20px;
+}
+
+.form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+}
+
+.form-right-decoration:before {
+    top: -20px;
+    right: 0;
+}
+
+.form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.form-inner {
+    padding: 40px;
+}
+
+.form-inner input,
+.form-inner textarea {
+    margin-top: 1%;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+}
+
+.form-inner textarea {
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #3e4f24;
+    /* background-color: chocolate;  */
+    font-size: 16px;
+    font-weight: 400;
+    /* color: #fff; */
+}
+
+@media (min-width: 568px) {
+    form {
+        width: 60%;
+    }
+}
+
+.reviews {
+    /* left: 37px; */
+    top: 79px;
+    position: absolute;
+    display: inline-block;
+}
